@@ -161,8 +161,8 @@ span {
 .menu5.active span:nth-child(1) {
   transform: rotate(43deg);
   position: absolute;
-  top: -120%;
-  left: 6%;
+  top: -135%;
+  left: 8%;
 }
 .menu5.active span:nth-child(2) {
   transform: rotate(-43deg);
@@ -200,4 +200,12 @@ span {
 }
 .menu6.active span:last-child {
   transform: rotate(43deg);
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
 }
